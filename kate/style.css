@@ -1,0 +1,192 @@
+html{
+    margin: auto;
+}
+.header{
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    justify-content: center;
+    background-color: yellow;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    
+}
+
+html,body{
+  height: 100%;
+}
+
+ol, li, label{
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+h1,p, pre, span {
+    font-family: Times New Roman;
+    font-size: 20px;
+}
+
+caption {
+    font-family: Times New Roman;
+    font-size: 20px;
+}
+
+h1 {
+    letter-spacing: 3px;
+    position: center;
+}
+
+p.c {
+    text-align-last: justify;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+
+tr:nth-child(even) {
+    background-color: #aee6df;
+}
+ 
+td, th {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+}
+
+
+a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 18pxS;
+}
+
+.bloc1{
+    margin: 50px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.bloc2{
+    margin: 50px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+.footer{
+ 
+    height: 80px;
+    margin-top: 10px;
+    margin-left: auto;
+    text-align:left;
+    font-size:42px;
+
+    background-color: black;
+    color: white;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+
+.body{
+    background-image: url(img/background-3069469_1280.jpg);
+}
+
+form {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: "Times New Roman", Times, serif;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    margin: 50px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+
+}
+.sign {
+    float: right; /* Вирівнювання по правому краю */
+    border: 1px solid #333; /* Параметри рамки */
+    padding: 7px; /* Поля всередині блоку */
+    margin: 10px 0 5px 5px; /* Відступи навколо */
+    background: #f0f0f0; /* Колір фону */
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+.sign figcaption {
+    margin: 0 auto 5px; /* Відступи навколо абзацу */
+}
+
+legend {
+
+    font-size: 3,0em;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+
+}
+table{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.button {
+    background-color: #d9b0e6;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
